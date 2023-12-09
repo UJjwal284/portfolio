@@ -28,7 +28,7 @@
 
 .skills-section {
     position: relative;
-    height: 100vh;
+    height: 96vh;
     overflow: hidden;
     background: linear-gradient(to bottom, #4900DC, #55059D);
 }
@@ -53,7 +53,7 @@
     justify-content: center;
     color: whitesmoke;
     font-weight: 500;
-    padding: 0px 20px;
+    padding: 0 20px;
     text-align: center;
     align-items: center;
     transition: 1s;
@@ -73,20 +73,20 @@
 
 .projects-section {
     position: relative;
-    height: 110vh;
+    height: 115vh;
     overflow: hidden;
     background: linear-gradient(to bottom, #55059D, #4900DC);
 }
 
 .project {
     width: 300px;
-    height: 220px;
+    height: 230px;
     background-color: rgba(0, 0, 0, 0.6);
     display: flex;
     justify-content: center;
     color: whitesmoke;
     font-weight: 500;
-    padding: 0px 20px;
+    padding: 0 20px;
     margin-right: 10px;
     text-align: center;
     align-items: center;
@@ -104,4 +104,47 @@
 .project p:hover {
     cursor: pointer;
     background-color: #006100;
+}
+
+#work-bg {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+}
+
+.work-section {
+    position: relative;
+    height: 93vh;
+    overflow: hidden;
+    background: linear-gradient(to bottom, #4900DC, #55059D);
+}
+
+.work {
+    width: 100%;
+    background-color: rgb(229, 229, 229);
+    display: flex;
+    color: #333333;
+    font-weight: 500;
+    padding: 0 20px;
+}
+
+.work:hover {
+    background-color: rgba(185, 185, 185, 0.78);
+    cursor: pointer;
+}
+
+.resume-section {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(to bottom, #55059D, #4900DC);
+}
+
+.downloadBtn {
+    padding: 10px 30px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.downloadBtn:hover {
+    background-color: #b7b7b7;
 }

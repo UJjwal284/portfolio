@@ -12,7 +12,8 @@ const Projects = () => {
     return (<div id="projects" className="projects-section">
         <h1 className={'mx-auto heading'}>Projects</h1>
         <div className="overlay-container align-items-start px-5 mt-4">
-            <div className={'mx-5 d-flex flex-wrap justify-content-center align-items-center rounded py-5'} id={'projects-bg'}>
+            <div className={'mx-5 d-flex flex-wrap justify-content-center align-items-center rounded py-5'}
+                 id={'projects-bg'}>
                 {Object.entries(projects).map(([key, values]) => (
                     <ProjectCard projectKey={key} projectValue={values}/>))}
             </div>
