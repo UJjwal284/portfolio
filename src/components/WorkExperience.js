@@ -22,7 +22,7 @@ const WorkExperience = () => {
             <div className={'mx-5 d-flex flex-wrap justify-content-center align-items-center rounded py-5'}
                  id={'work-bg'}>
                 {Object.entries(works).reverse().map(([key, values]) => (
-                    <WorkCard workKey={key} workValue={values}/>))}
+                    <WorkCard key={key} workKey={key} workValue={values}/>))}
             </div>
         </div>
     </div>);
